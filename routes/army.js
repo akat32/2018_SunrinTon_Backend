@@ -1,6 +1,6 @@
 module.exports = (router, request)=>{
   router.post('/',async(req,res)=>{
-    var apiurl = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?region=kr&location=" + req.body.x + "," + req.body.y + "&radius=1000&type=subway_station&key=AIzaSyC0WvUEVSxSbcLhUw_ndmcLhf2_HkuDs5c";
+    var apiurl = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?region=kr&location=" + req.body.x + "," + req.body.y + "&radius=3000&type=subway_station&key=AIzaSyC0WvUEVSxSbcLhUw_ndmcLhf2_HkuDs5c";
     request(apiurl, (err, response, body)=>{
       let resultArr = [];
       var bodyresult;
