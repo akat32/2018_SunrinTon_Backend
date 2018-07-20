@@ -1,0 +1,24 @@
+{
+  "name": "2018_sunrinton_backend",
+  "version": "1.0.0",
+  "description": "2018 선린톤 서버",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akat32/2018_SunrinTon_Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akat32/2018_SunrinTon_Backend/issues"
+  },
+  "homepage": "https://github.com/akat32/2018_SunrinTon_Backend#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.87.0"
+  }
+}
